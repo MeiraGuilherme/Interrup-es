@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "devices": [
+    {
+      "type": "RP2040",
+      "id": "pico",
+      "pins": {
+        "5": "button_a",
+        "6": "button_b",
+        "11": "led_red"
+      }
+    },
+    {
+      "type": "LED",
+      "id": "led_red",
+      "pin": 11
+    },
+    {
+      "type": "Button",
+      "id": "button_a",
+      "pin": 5,
+      "pull": "up"
+    },
+    {
+      "type": "Button",
+      "id": "button_b",
+      "pin": 6,
+      "pull": "up"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[wokwi]
+version = 1
+
+[[chip]]
+name = "rp2040"
+
+[[pin]]
+number = 5
+function = "gpio"
+pull = "up"
+
+[[pin]]
+number = 6
+function = "gpio"
+pull = "up"
+
+[[pin]]
+number = 11
+function = "gpio"
